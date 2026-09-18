@@ -63,6 +63,20 @@ function renderTasks() {
 
                 <button class="task-menu">
                     <i class="fa-solid fa-ellipsis fa-icon"></i>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-item">
+                                <i class="fa-solid fa-pen-to-square fa-icon"></i>
+                                Edit
+                            </div>
+                            <div class="dropdown-item complete">
+                                <i class="fa-solid fa-check fa-icon"></i>
+                                Mark as Active
+                            </div>
+                            <div class="dropdown-item delete">
+                                <i class="fa-solid fa-trash fa-icon"></i>
+                                Delete
+                            </div>
+                        </div>
                 </button>
 
             </div>
